@@ -1,0 +1,26 @@
+# Secrets and keys
+.env
+*.env
+*.key
+*.pem
+credentials*.json
+
+# Workflow exports and code: never public
+*.json
+workflow/
+code/
+
+# n8n backups and server files
+*.tar.gz
+*.gpg
+*.sqlite
+docker-compose.yml
+
+# Screenshots awaiting privacy review
+needs-review/
+
+# System and editor junk
+.DS_Store
+*.save
+*.log
+.vscode/
